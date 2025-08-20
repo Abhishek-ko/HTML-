@@ -2,8 +2,24 @@
 <html>
 <head>
   <title>Abhishek Kumar - CV</title>
+  <style>
+    * {
+      cursor: none !important;
+    }
+    #cursor {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      pointer-events: none;
+      background: url("https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif") no-repeat center/contain;
+      z-index: 9999;
+      transform: translate(-50%, -50%); 
+    }
+  </style>
 </head>
 <body style="font-family: Arial, sans-serif; margin:20px; background-color:#f9f9f9;">
+
+  <div id="cursor"></div>
 
   <h1 style="color:darkblue;">Abhishek Kumar</h1>
   <h3 style="color:darkgreen;">B.Tech CSE | Fullstack Development & AI Enthusiast</h3>
@@ -12,13 +28,11 @@
 
   <h2 style="color:darkred;">Contact</h2>
   <ul style="list-style-type:none; padding:0; color:#333;">
-    <li><b>Email:</b> <span style="color:blue;">abhishekch2906@gmail.com</span></li>
+    <li><b>Email:</b> <a href="mailto:abhishekch2906@gmail.com" style="color:blue;">abhishekch2906@gmail.com</a></li>
     <li><b>Phone:</b> <span style="color:green;">+91-9*********</span></li>
     <li><b>LinkedIn:</b> 
-      <a href="https://linkedin.com/in/abhisheikhumar" 
-         target="_blank" 
-         style="color:purple; text-decoration:none;">
-         linkedin.com/in/abhisheikhumar
+      <a href="https://linkedin.com/in/abhisheikhumar" target="_blank" style="color:purple; text-decoration:none;">
+        linkedin.com/in/abhisheikhumar
       </a>
     </li>
   </ul>
@@ -79,13 +93,20 @@
   <h2 style="color:darkred;">Hobbies</h2>
   <ul style="color:#333;">
     <li>🎮 Playing Video Games</li>
-    <li>📺 Watching movies and webseries</li>
+    <li>✈️ Travelling</li>
   </ul>
 
   <footer style="margin-top:20px; text-align:center; color:gray;">
     &copy; 2025 Abhishek Kumar
   </footer>
 
+  <script>
+    const cursor = document.getElementById("cursor");
+    document.addEventListener("mousemove", (e) => {
+      cursor.style.left = e.pageX + "px";
+      cursor.style.top = e.pageY + "px";
+    });
+  </script>
+
 </body>
 </html>
-
