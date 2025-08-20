@@ -5,13 +5,11 @@
 </head>
 <body style="font-family: Arial, sans-serif; margin:20px; background-color:#f9f9f9;">
 
-  <!-- Part 2: Header Section -->
   <h1 style="color:darkblue;">Abhishek Kumar</h1>
   <h3 style="color:darkgreen;">B.Tech CSE | Fullstack Development & AI Enthusiast</h3>
   <img src="https://via.placeholder.com/150" alt="Profile Picture" 
        style="width:150px; height:150px; border-radius:50%; border:3px solid darkblue;">
 
-  <!-- Part 3: Contact Section -->
   <h2 style="color:darkred;">Contact</h2>
   <ul style="list-style-type:none; padding:0; color:#333;">
     <li><b>Email:</b> <span style="color:blue;">abhishekch2906@gmail.com</span></li>
@@ -25,7 +23,6 @@
     </li>
   </ul>
 
-  <!-- Part 4: About Me -->
   <h2 style="color:darkred;">About Me</h2>
   <p style="color:#444;">
     I am <b style="color:darkblue;">Abhishek Kumar</b>, currently in my 
@@ -36,7 +33,6 @@
     and I am constantly learning new technologies to improve my skills.
   </p>
 
-  <!-- Part 5: Education Section (with Table) -->
   <h2 style="color:darkred;">Education</h2>
   <table style="border:1px solid black; border-collapse:collapse; width:80%; background-color:#fff;">
     <tr style="background-color:#e6e6e6;">
@@ -61,7 +57,6 @@
     </tr>
   </table>
 
-  <!-- Part 6: Skills -->
   <h2 style="color:darkred;">Skills</h2>
   <ul style="color:#333;">
     <li>🌐 Fullstack Development</li>
@@ -71,7 +66,6 @@
     <li>🧩 Problem Solving</li>
   </ul>
 
-  <!-- Part 7: Projects -->
   <h2 style="color:darkred;">Projects</h2>
   <div style="border:1px solid gray; padding:10px; margin-bottom:10px; background-color:#f0f8ff;">
     <h4 style="color:darkblue;">Portfolio Website</h4>
@@ -82,17 +76,16 @@
     <p style="color:#444;">Created a basic chatbot using Python and Machine Learning concepts.</p>
   </div>
 
-  <!-- Part 8: Hobbies -->
   <h2 style="color:darkred;">Hobbies</h2>
   <ul style="color:#333;">
     <li>🎮 Playing Video Games</li>
     <li>📺 Watching movies and webseries</li>
   </ul>
 
-  <!-- Part 9: Footer -->
   <footer style="margin-top:20px; text-align:center; color:gray;">
     &copy; 2025 Abhishek Kumar
   </footer>
 
 </body>
 </html>
+
